@@ -1,0 +1,265 @@
+*
+{
+    margin: 0;
+    padding:0;
+    font-family: 'Changa', sans-serif;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+img
+{
+    width:100%;
+}
+body
+{
+    padding-top: 78px;  /* the nav height */
+}
+.underLined
+{
+    text-decoration: underline;
+}
+.clrfix
+{
+    clear: both;
+}
+
+/** Start Nav Styles **/
+.nav {
+    background-color: #fff;
+    padding:20px 0 25px;
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+}
+
+/** start logo styles **/
+.nav .logo
+{
+    float: left;
+    width:50px;
+    position: relative;
+}
+.nav .logo img
+{
+    position: absolute;
+}
+/** end logo styles **/
+
+/** start labels styles **/
+.nav .labels
+{
+    float:right;
+    width:80%;
+    text-align: right;
+}
+.nav .labels .navlist li {
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.nav .labels .navlist li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.54);
+}
+
+.nav .labels .navlist li a.active,
+.nav .labels .navlist li a:hover {
+    color: #0c2f55; /* logo color */ 
+}
+/** end labels styles **/
+
+/** End Nav Styles **/
+
+
+
+/** Start Main Styles **/
+
+.main
+{
+    background-image: url(../images/cover.jpg);
+    text-align: center; 
+    
+    /* Suggestions */
+    background-position: bottom;
+    background-attachment: fixed; 
+    background-size: 100%;
+}
+
+.main .layer
+{
+    padding:60px 0 110px;
+    background-color: rgba(0,0,0,0.7);
+    color:#fff;
+}
+.main .layer .disc
+{
+    padding-right:40px;
+}
+.main .layer .disc .head
+{
+    font-size: 35px;
+}
+.main .layer .disc .words .q
+{
+    font-size: 28px;
+    line-height:30px;
+}
+.main .layer .disc .words .a
+{
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.main .layer .disc .btns
+{
+    margin-top: 40px;
+}
+.main .layer .disc .btns a
+{
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    padding:10px 20px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color:#fff;
+/*    transition: all 0.4s;*/
+}
+.main .layer .disc .btns a:hover
+{
+    background-color: #0c2f55; 
+    border-color: #3d4752;
+    color:#fff;
+}
+/** End Main Styles **/
+
+/** Start Main Sections Styles **/
+.section
+{
+    padding:40px 0;
+}
+.section .head
+{
+    text-align: center;
+    font-size: 38px;
+    color: #0c2f55;
+}
+.section .head .line
+{
+    width:100px;
+    height: 3px;
+    margin: auto;
+    background-color: #0c2f55;
+    
+}
+
+/** End Main Sections Styles **/
+
+/** Start Moderators Section Styles **/
+
+.mod .mod-cards
+{
+    margin: 60px 0;
+}
+.mod .mod-cards .card-container
+{
+    width:33.33333%;
+    float: left;
+    text-align: center;
+}
+.mod .mod-cards .card-container .card .pic
+{
+    padding:0 60px;
+}
+.mod .mod-cards .card-container .card .pic img
+{
+    border-radius: 3px;
+    height: 240px;
+}
+.mod .mod-cards .card-container .card .after-pic
+{
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+/** End Moderators Section Styles **/
+
+/** Start Images Section Styles **/
+
+.images
+{
+    border-top-right-radius:200px;
+    border-top-left-radius:200px;
+    background-color:#0c2f55;
+    color:#fff;
+}
+.images .head
+{
+    color:#fff;
+    margin-bottom: 60px;
+}
+.images .head  .line
+{
+    background-color: #fff;
+}
+.images .head .head-link
+{
+    display: inline-block;
+    position: relative;
+}
+.images .head a
+{
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    bottom:20px;
+    right: -80px;
+}
+.images .images-container .pic
+{
+    box-sizing: border-box;
+    width:33.333%;
+    padding:15px 10px;
+    float: left;
+}
+/** End Images Section Styles **/
+
+/** Start Footer Styles **/
+
+.footer
+{
+    background-color:#0b1e44;
+    color:#fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .contact-item
+{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+/*    background-color: #09c;*/
+}
+.footer span
+{
+    display: inline-block;
+}
+.footer span.img
+{
+    width:20px;
+}
+.footer a:hover .name
+{
+    text-decoration: underline;
+}
+/** End Footer Styles **/

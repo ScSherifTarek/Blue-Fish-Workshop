@@ -1,0 +1,14 @@
+.images
+{
+    border-radius: 0;
+    background-color: #fff;
+    color: #0c2f55;
+}
+.images .head
+{
+    color:#0c2f55;
+}
+.images .head .line
+{
+    background-color: #0c2f55;
+}
